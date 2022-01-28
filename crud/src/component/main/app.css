@@ -1,0 +1,24 @@
+.app {
+    display: grid;
+    grid-template-rows: 100px 1fr 75px;
+    grid-template-columns: 200px 1fr;
+    grid-template-areas: 
+    "logo header"
+    "nav main"
+    "nav footer";
+    height: 100vh;
+    background-color: #fff;
+}
+
+aside.menu-area{
+    grid-area: nav;
+}
+
+main.content{
+    grid-area: main;
+}
+
+footer.footer {
+    grid-area: footer;
+}
+

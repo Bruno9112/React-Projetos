@@ -1,0 +1,11 @@
+header.header{
+    background-color: lightgray;
+}
+
+header.header h1 {
+    color: black;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-weight: 500;
+}
