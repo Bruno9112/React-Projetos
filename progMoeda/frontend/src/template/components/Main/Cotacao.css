@@ -1,0 +1,34 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Cotacao{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-template-rows: 75px 1fr 50px;
+    grid-template-areas: 
+    "logo header"
+    "menu content"
+    "menu footer";
+}
+
+header.header{
+    grid-area: header;
+}
+
+aside.logo{
+    grid-area: logo;
+}
+
+footer.footer{
+    grid-area: footer;
+}
+
+main.main {
+    grid-area: content;
+}
+
+aside.menu-area{
+    grid-area: menu;
+}

@@ -1,0 +1,20 @@
+header.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+    background-color: white;
+    box-shadow: 0 0 0.5em black;
+}
+
+header.header .infos{
+    font-weight: 700;
+    background-color: #176651;
+    padding: 7px 15px;
+    border: 2px solid black;
+    border-radius: 100%;
+}
+
+header.header h2{
+    margin-left: 20px;
+    text-transform: capitalize;
+}

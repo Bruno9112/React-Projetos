@@ -1,0 +1,98 @@
+p h3{
+    padding: 0;
+    margin: 0;
+    line-height: 0px;
+}
+
+main .infos{
+    display: flex;
+    flex-direction: row;
+}
+
+main.main{
+    display: grid;
+    grid-template-rows: 70% 30%;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "infos infos" "money money";
+}
+
+main .infos{
+    grid-area: infos;
+}
+
+main .contador{
+    grid-area: money;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "valor1 valor2";
+}
+
+.contador .valor1{
+    grid-area: valor1;
+}
+.contador .valor2 {
+    grid-area: valor2;
+}
+
+
+.valor1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0px 70px;
+}
+
+.valor2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0px 70px;
+}
+
+label{
+    margin: 0px 10px;
+}
+
+input{
+    height: 50px;
+    width: 200px;
+}
+
+.col{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+.keys{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+}
+.values{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+}
+.key{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    height: 20%;
+    font-size: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+}
+.value{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 500;
+    height: 20%;
+    padding: 0px 15px;
+    margin: 10px;
+}
+
